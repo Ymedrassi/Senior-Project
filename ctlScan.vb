@@ -159,7 +159,7 @@ Public Class ctlScan
     End Sub
 
     Private Sub btnProtection_Click(sender As Object, e As EventArgs) Handles btnSmartScan.Click
-        FolderBrowserDialog1.SelectedPath = "C:\Riot Games"
+        FolderBrowserDialog1.SelectedPath = "C:\"
 
         Try
             For Each strDir As String In System.IO.Directory.GetDirectories(FolderBrowserDialog1.SelectedPath, "*.*", IO.SearchOption.TopDirectoryOnly)
