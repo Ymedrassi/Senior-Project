@@ -1,6 +1,4 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
-
-Public Class CtlPrivacy
+﻿Public Class CtlPrivacy
     Private Sub CtlPrivacy_Load(sender As Object, e As EventArgs) Handles Me.Load
         ChangeLabelForeColors(My.Settings.foreColor)
     End Sub
