@@ -64,15 +64,15 @@ Partial Class CtlHome
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Location = New System.Drawing.Point(51, 175)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Panel1.Location = New System.Drawing.Point(26, 91)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(484, 361)
+        Me.Panel1.Size = New System.Drawing.Size(242, 188)
         Me.Panel1.TabIndex = 0
         '
         'Button3
@@ -81,37 +81,35 @@ Partial Class CtlHome
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(112, 279)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Button3.Location = New System.Drawing.Point(56, 145)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(264, 58)
+        Me.Button3.Size = New System.Drawing.Size(132, 30)
         Me.Button3.TabIndex = 7
-        Me.Button3.Text = "SCAN"
+        Me.Button3.Text = "SCAN NOW"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(48, 189)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label1.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label1.Location = New System.Drawing.Point(24, 98)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(404, 78)
+        Me.Label1.Size = New System.Drawing.Size(202, 41)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "A one click health check for treats, updates and issues"
+        Me.Label1.Text = "Runs Smart scan on your system "
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.Control
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(96, 146)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label2.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label2.Location = New System.Drawing.Point(48, 76)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(266, 37)
+        Me.Label2.Size = New System.Drawing.Size(141, 20)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Run Smart Scan"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -119,25 +117,25 @@ Partial Class CtlHome
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Anti_Virus_Project.My.Resources.Resources.icons8_virus_research_45px
-        Me.PictureBox1.Location = New System.Drawing.Point(187, 28)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.PictureBox1.Location = New System.Drawing.Point(92, 15)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(104, 100)
+        Me.PictureBox1.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.White
+        Me.Panel2.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Controls.Add(Me.PictureBox2)
-        Me.Panel2.Location = New System.Drawing.Point(605, 175)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Panel2.Controls.Add(Me.PictureBox3)
+        Me.Panel2.Location = New System.Drawing.Point(302, 91)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(484, 361)
+        Me.Panel2.Size = New System.Drawing.Size(242, 188)
         Me.Panel2.TabIndex = 1
         '
         'Button4
@@ -146,61 +144,61 @@ Partial Class CtlHome
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(116, 279)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Button4.Location = New System.Drawing.Point(58, 145)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(264, 58)
+        Me.Button4.Size = New System.Drawing.Size(132, 30)
         Me.Button4.TabIndex = 8
-        Me.Button4.Text = "SCAN"
+        Me.Button4.Text = "SCAN NOW"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Label3
         '
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(53, 189)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label3.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label3.Location = New System.Drawing.Point(26, 98)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(404, 78)
+        Me.Label3.Size = New System.Drawing.Size(202, 41)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Run Full Scan."
+        Me.Label3.Text = "Select your file path to scan "
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(88, 146)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label4.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label4.Location = New System.Drawing.Point(68, 78)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(320, 37)
+        Me.Label4.Size = New System.Drawing.Size(106, 20)
         Me.Label4.TabIndex = 2
-        Me.Label4.Text = "Run Full Virus Scan"
+        Me.Label4.Text = "Partial Scan"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Anti_Virus_Project.My.Resources.Resources.icons8_computer_virus_45px_1
-        Me.PictureBox2.Location = New System.Drawing.Point(192, 28)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.PictureBox2.Location = New System.Drawing.Point(92, 15)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(104, 100)
+        Me.PictureBox2.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.White
+        Me.Panel3.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Panel3.Controls.Add(Me.Button5)
         Me.Panel3.Controls.Add(Me.Label5)
         Me.Panel3.Controls.Add(Me.Label6)
-        Me.Panel3.Controls.Add(Me.PictureBox3)
-        Me.Panel3.Location = New System.Drawing.Point(1149, 175)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Panel3.Controls.Add(Me.PictureBox2)
+        Me.Panel3.Location = New System.Drawing.Point(574, 91)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(484, 361)
+        Me.Panel3.Size = New System.Drawing.Size(242, 188)
         Me.Panel3.TabIndex = 2
         '
         'Button5
@@ -209,46 +207,46 @@ Partial Class CtlHome
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(109, 279)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Button5.Location = New System.Drawing.Point(54, 145)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(264, 58)
+        Me.Button5.Size = New System.Drawing.Size(132, 30)
         Me.Button5.TabIndex = 8
-        Me.Button5.Text = "SCAN"
+        Me.Button5.Text = "SCAN NOW"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Label5
         '
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(44, 189)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label5.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label5.Location = New System.Drawing.Point(22, 98)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(404, 78)
+        Me.Label5.Size = New System.Drawing.Size(202, 41)
         Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Run Scan To Specific Directory. "
+        Me.Label5.Text = "Scan all files "
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(141, 144)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label6.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label6.Location = New System.Drawing.Point(70, 75)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(189, 37)
+        Me.Label6.Size = New System.Drawing.Size(106, 20)
         Me.Label6.TabIndex = 2
-        Me.Label6.Text = "Other Scan"
+        Me.Label6.Text = "Partial Scan"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Anti_Virus_Project.My.Resources.Resources.icons8_search_45px
-        Me.PictureBox3.Location = New System.Drawing.Point(181, 28)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.PictureBox3.Location = New System.Drawing.Point(95, 15)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(104, 100)
+        Me.PictureBox3.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 0
         Me.PictureBox3.TabStop = False
@@ -257,11 +255,11 @@ Partial Class CtlHome
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(40, 58)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label7.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label7.Location = New System.Drawing.Point(20, 30)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(288, 76)
+        Me.Label7.Size = New System.Drawing.Size(148, 39)
         Me.Label7.TabIndex = 3
         Me.Label7.Text = "Antivirus"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -271,10 +269,10 @@ Partial Class CtlHome
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(1195, 572)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Button1.Location = New System.Drawing.Point(598, 297)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(440, 75)
+        Me.Button1.Size = New System.Drawing.Size(220, 39)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "SCAN HISTORY"
         Me.Button1.UseVisualStyleBackColor = True
@@ -284,33 +282,33 @@ Partial Class CtlHome
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(1195, 678)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Button2.Location = New System.Drawing.Point(598, 353)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(440, 75)
+        Me.Button2.Size = New System.Drawing.Size(220, 39)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "VIRUS CHEAST"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Panel4.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Controls.Add(Me.Label9)
-        Me.Panel4.Location = New System.Drawing.Point(53, 572)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Panel4.Location = New System.Drawing.Point(26, 297)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1128, 179)
+        Me.Panel4.Size = New System.Drawing.Size(564, 93)
         Me.Panel4.TabIndex = 10
         '
         'Label8
         '
         Me.Label8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(104, 68)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label8.Location = New System.Drawing.Point(52, 35)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(908, 90)
+        Me.Label8.Size = New System.Drawing.Size(454, 47)
         Me.Label8.TabIndex = 9
         Me.Label8.Text = "A premium license is reured to run a full scan & clean to remove all viruses comp" &
     "letely from your computer."
@@ -321,30 +319,30 @@ Partial Class CtlHome
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Arial", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(37, 21)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label9.Location = New System.Drawing.Point(18, 11)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(1065, 46)
+        Me.Label9.Size = New System.Drawing.Size(541, 24)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "Only 1 of 5 sections of Your System Has Been Scanned!"
         '
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel5.Location = New System.Drawing.Point(53, 779)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Panel5.Location = New System.Drawing.Point(26, 405)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(1588, 2)
+        Me.Panel5.Size = New System.Drawing.Size(794, 1)
         Me.Panel5.TabIndex = 76
         '
         'Label10
         '
         Me.Label10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(1059, 808)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label10.Location = New System.Drawing.Point(530, 420)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(308, 54)
+        Me.Label10.Size = New System.Drawing.Size(154, 28)
         Me.Label10.TabIndex = 79
         Me.Label10.Text = "Recommended action:"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -355,10 +353,10 @@ Partial Class CtlHome
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(1371, 804)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Button6.Location = New System.Drawing.Point(686, 418)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(264, 58)
+        Me.Button6.Size = New System.Drawing.Size(132, 30)
         Me.Button6.TabIndex = 9
         Me.Button6.Text = "FIX ALL"
         Me.Button6.UseVisualStyleBackColor = False
@@ -367,10 +365,10 @@ Partial Class CtlHome
         '
         Me.lblLastScanned.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLastScanned.ForeColor = System.Drawing.Color.White
-        Me.lblLastScanned.Location = New System.Drawing.Point(196, 882)
-        Me.lblLastScanned.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.lblLastScanned.Location = New System.Drawing.Point(98, 459)
+        Me.lblLastScanned.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblLastScanned.Name = "lblLastScanned"
-        Me.lblLastScanned.Size = New System.Drawing.Size(1445, 54)
+        Me.lblLastScanned.Size = New System.Drawing.Size(722, 28)
         Me.lblLastScanned.TabIndex = 86
         Me.lblLastScanned.Text = "Last scan:"
         Me.lblLastScanned.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -379,10 +377,10 @@ Partial Class CtlHome
         '
         Me.Label11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(52, 882)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label11.Location = New System.Drawing.Point(26, 459)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(155, 54)
+        Me.Label11.Size = New System.Drawing.Size(78, 28)
         Me.Label11.TabIndex = 85
         Me.Label11.Text = "Last scan:"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -391,10 +389,10 @@ Partial Class CtlHome
         '
         Me.lblRecordsFound.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRecordsFound.ForeColor = System.Drawing.Color.Orange
-        Me.lblRecordsFound.Location = New System.Drawing.Point(280, 825)
-        Me.lblRecordsFound.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.lblRecordsFound.Location = New System.Drawing.Point(140, 429)
+        Me.lblRecordsFound.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblRecordsFound.Name = "lblRecordsFound"
-        Me.lblRecordsFound.Size = New System.Drawing.Size(221, 31)
+        Me.lblRecordsFound.Size = New System.Drawing.Size(110, 16)
         Me.lblRecordsFound.TabIndex = 84
         Me.lblRecordsFound.Text = "0"
         Me.lblRecordsFound.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -403,10 +401,10 @@ Partial Class CtlHome
         '
         Me.Label12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.White
-        Me.Label12.Location = New System.Drawing.Point(52, 814)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label12.Location = New System.Drawing.Point(26, 423)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(221, 54)
+        Me.Label12.Size = New System.Drawing.Size(110, 28)
         Me.Label12.TabIndex = 83
         Me.Label12.Text = "Records found:"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -415,10 +413,10 @@ Partial Class CtlHome
         '
         Me.Label13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label13.Location = New System.Drawing.Point(229, 982)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label13.Location = New System.Drawing.Point(114, 511)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(1165, 61)
+        Me.Label13.Size = New System.Drawing.Size(582, 32)
         Me.Label13.TabIndex = 87
         Me.Label13.Text = ".......... Scan your computer on a regular baseis to keep it's perfomance optimiz" &
     "ed .........."
@@ -427,19 +425,19 @@ Partial Class CtlHome
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Anti_Virus_Project.My.Resources.Resources.icons8_info_45px
-        Me.PictureBox4.Location = New System.Drawing.Point(332, 82)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.PictureBox4.Location = New System.Drawing.Point(166, 43)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(40, 39)
+        Me.PictureBox4.Size = New System.Drawing.Size(20, 20)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 4
         Me.PictureBox4.TabStop = False
         '
         'CtlHome
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackColor = System.Drawing.Color.DarkCyan
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.lblLastScanned)
         Me.Controls.Add(Me.Label11)
@@ -456,9 +454,9 @@ Partial Class CtlHome
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Name = "CtlHome"
-        Me.Size = New System.Drawing.Size(1696, 1089)
+        Me.Size = New System.Drawing.Size(848, 566)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
